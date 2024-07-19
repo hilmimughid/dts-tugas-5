@@ -29,11 +29,11 @@
             <div class="mb-3">
                 <label for="formGroupExampleInput" class="form-label fw-bold">Status Ketersediaan</label><br>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="status" id="inlineRadio1" value="Tersedia">
+                    <input class="form-check-input" type="radio" name="status" id="inlineRadio1" value="Tersedia" required>
                     <label class="form-check-label" for="inlineRadio1">Tersedia</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="status" id="inlineRadio2" value="Kosong">
+                    <input class="form-check-input" type="radio" name="status" id="inlineRadio2" value="Kosong" required>
                     <label class="form-check-label" for="inlineRadio2">Kosong</label>
                 </div>
             </div>
