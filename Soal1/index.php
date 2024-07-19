@@ -15,26 +15,26 @@
         <form action="output.php" method="POST">
             <h1 class="text-center my-3">Form Laporan Inventaris</h1>
             <div class="mb-3">
-                <label for="formGroupExampleInput" class="form-label fw-bold">Nama Produk</label>
+                <label class="form-label fw-bold">Nama Produk</label>
                 <input type="text" class="form-control" name="nama" placeholder="Masukkan Nama Produk" required>
             </div>
             <div class="mb-3">
-                <label for="formGroupExampleInput2" class="form-label fw-bold">Jumlah Produk</label>
+                <label class="form-label fw-bold">Jumlah Produk</label>
                 <input type="number" class="form-control" name="jumlah" placeholder="Masukkan Jumlah Produk" required>
             </div>
             <div class="mb-3">
-                <label for="formGroupExampleInput2" class="form-label fw-bold">Harga</label>
+                <label class="form-label fw-bold">Harga</label>
                 <input type="number" class="form-control" name="harga" placeholder="Masukkan Harga" required>
             </div>
             <div class="mb-3">
-                <label for="formGroupExampleInput" class="form-label fw-bold">Status Ketersediaan</label><br>
+                <label class="form-label fw-bold">Status Ketersediaan</label><br>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="status" id="inlineRadio1" value="Tersedia" required>
-                    <label class="form-check-label" for="inlineRadio1">Tersedia</label>
+                    <input class="form-check-input" type="radio" name="status" value="Tersedia" required>
+                    <label class="form-check-label">Tersedia</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="status" id="inlineRadio2" value="Kosong" required>
-                    <label class="form-check-label" for="inlineRadio2">Kosong</label>
+                    <input class="form-check-input" type="radio" name="status" value="Kosong" required>
+                    <label class="form-check-label">Kosong</label>
                 </div>
             </div>
             <div class="d-flex justify-content-center">
