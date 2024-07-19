@@ -37,7 +37,6 @@
                     <label class="form-check-label" for="inlineRadio2">Kosong</label>
                 </div>
             </div>
-
             <div class="d-flex justify-content-center">
                 <button type="submit" class="btn btn-primary">Submit</button>
             </div>
